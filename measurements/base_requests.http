@@ -1,0 +1,25 @@
+DELETE http://localhost:8000/api/v1/Project/1/
+Content-Type: application/json
+
+
+###
+GET http://localhost:8000/api/v1/Project/
+Accept: application/json
+
+###
+
+GET http://localhost:8000/api/v1/Measurement/
+Accept: application/json
+
+###
+
+POST http://localhost:8000/api/v1/Measurement/
+Content-Type: application/json
+
+{
+  "value": 1172.123,
+  "project": 2
+
+}
+
+
